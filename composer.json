@@ -27,12 +27,12 @@
     },
     "autoload": {
         "psr-4": {
-            "chadhutchins\\OAuth2\\Client\\": "src/"
+            "Chadhutchins\\OAuth2\\Client\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "chadhutchins\\OAuth2\\Client\\Test\\": "tests/src/"
+            "Chadhutchins\\OAuth2\\Client\\Test\\": "tests/src/"
         }
     },
     "extra": {

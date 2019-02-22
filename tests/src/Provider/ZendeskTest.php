@@ -1,6 +1,6 @@
 <?php 
 
-namespace chadhutchins\OAuth2\Client\Test\Provider;
+namespace Chadhutchins\OAuth2\Client\Test\Provider;
 
 use League\OAuth2\Client\Tool\QueryBuilderTrait;
 use Mockery as m;
@@ -13,7 +13,7 @@ class MailchimpTest extends \PHPUnit_Framework_TestCase
 
     protected function setUp()
     {
-        $this->provider = new \chadhutchins\OAuth2\Client\Provider\Mailchimp([
+        $this->provider = new \Chadhutchins\OAuth2\Client\Provider\Mailchimp([
             'clientId' => 'mock_client_id',
             'clientSecret' => 'mock_secret',
             'redirectUri' => 'none',

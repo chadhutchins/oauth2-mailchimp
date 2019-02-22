@@ -10,12 +10,12 @@ composer require chadhutchins/oauth2-mailchimp
 
 ## Usage
 
-Usage is the same as The League's OAuth client, using `\Stevenmaguire\OAuth2\Client\Provider\Mailchimp` as the provider.
+Usage is the same as The League's OAuth client, using `\Chadhutchins\OAuth2\Client\Provider\Mailchimp` as the provider.
 
 ### Authorization Code Flow
 
 ```php
-$provider = new chadhutchins\OAuth2\Client\Provider\Mailchimp([
+$provider = new \Chadhutchins\OAuth2\Client\Provider\Mailchimp([
     'clientId'          => '{mailchimp-client-id}',
     'clientSecret'      => '{mailchimp-client-secret}',
     'redirectUri'       => 'https://example.com/callback-url',
